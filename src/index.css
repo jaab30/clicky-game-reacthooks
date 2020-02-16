@@ -4,7 +4,7 @@
 }
 
 html, body, #root {
-  background-image: url("/assets/img/ssbackgroundv1.jpg");
+  background-image: url("/clicky-game-reacthooks/assets/img/ssbackgroundv1.jpg");
   background-attachment: fixed;
   padding: 0;
   margin: 0;
