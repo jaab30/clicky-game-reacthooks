@@ -1,0 +1,95 @@
+
+.imgDiv {
+  height: 120px;
+}
+.imgDiv img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin: 0;
+    border: #00af42 5px solid;
+    box-shadow: 2px 3px 10px 1px rgba(0, 0, 0, 0.2)
+
+}
+.imgDiv img:hover {
+    width: 122px;
+    height: 122px;
+    box-shadow: 2px 3px 15px 1px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+.imgDiv img:hover:active {
+  width: 123px;
+  height: 123px;
+}
+.characterContainer {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  /* grid-template-areas:  */
+  background: rgb(252, 208, 0, 0.8);
+  padding: 10px;
+}
+
+.content {
+  margin: 0;
+  width: 100%;
+}
+.content p {
+  margin: 0 10px;
+  font-family: 'Oregano', cursive;
+  font-size: 1.1em;
+  color: #00af42;
+  background: white;
+  text-align: center;
+  border-radius: 15px;
+}
+.shakeOn {
+  animation: shake .5s;
+  animation-iteration-count: 1;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); background: rgb(255, 0, 0, 0.5); }
+  
+}
+
+@media screen and (max-width: 550px) {
+
+  .imgDiv {
+    height: 100px;
+  }
+  .imgDiv img {
+      width: 100px;
+      height: 100px;
+      border: #00af42 3px solid;
+      box-shadow: 1px 2px 5px 1px rgba(0, 0, 0, 0.2)
+  
+  }
+  .imgDiv img:hover {
+      width: 102px;
+      height: 102px;
+      box-shadow: 1px 2px 7px 1px rgba(0, 0, 0, 0.3);
+  }
+  .imgDiv img:hover:active {
+    width: 103px;
+    height: 103px;
+  }
+  
+  .content p {
+    font-size: 1em;
+    font-weight: 700;
+    border-radius: 10px;
+  }
+
+
+}

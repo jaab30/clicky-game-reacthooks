@@ -1,0 +1,103 @@
+
+.navContainer {
+    display: grid;
+    grid-template-columns: 25% 15% 20% 15% 25%;
+    background: rgb(255, 255, 255, 0.8);
+    width: 100%;
+    height: 85px;
+    margin:  0;
+    padding: 0 0 20px 0;
+    border-bottom: gray 1px solid;
+}
+.titleContainer {
+    grid-column-start: 3;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin: 0 0 0 0;
+}
+.sslogo {
+    width: 100px;
+    height: auto;
+    margin-top: 10px;
+}
+.gameTitle {
+    font-family: 'Oregano', cursive;
+    font-weight: 700;
+    font-size: 2.1em;
+    margin: -18Px 0 0 0;
+    transform: rotate(355deg);
+    color: black;
+}
+.score {
+    grid-column-start: 2;
+    text-align:left;
+    margin: 0;
+    font-family: 'Londrina Solid', cursive;
+    font-size: 1.5em;
+    padding: 40px 0 10px 10px;
+    color: #00af42;
+}
+.topScore {
+    grid-column-start: 4;
+    text-align:right;
+    margin: 0;
+    font-family: 'Londrina Solid', cursive;
+    font-size: 1.5em;
+    padding: 40px 10px 10px 0;
+    width: 100%;
+    color: #00af42;
+}
+@media screen and (min-width: 901px) and (max-width: 1210px) {
+    .navContainer {
+        display: grid;
+        grid-template-columns: 15% 20% 30% 20% 15%;
+    }
+
+
+}
+@media screen and (min-width: 600px) and (max-width: 900px) {
+
+    .navContainer {
+        display: grid;
+        grid-template-columns: 5% 25% 40% 25% 5%;
+    }
+}
+
+@media screen and (min-width: 550px) and (max-width: 601px) {
+
+    .navContainer {
+        display: grid;
+        grid-template-columns: 5% 25% 40% 25% 5%;
+    }
+}
+@media screen and (max-width: 550px) {
+
+    .navContainer {
+        display: grid;
+        grid-template-columns: 1% 30% 38% 30% 1%;
+    }
+
+    .sslogo {
+       
+        margin-top: 10px;
+    }
+    .gameTitle {
+        margin-top: 5px;
+        font-size: 1.4em;
+        margin: -12px 0 0 0;
+    }
+    .score {
+        font-size: 1em;
+        padding: 55px 5px 0 10px;
+    }
+    .topScore {
+        font-size: 1em;
+        padding: 55px 5px 0 5px;
+    }
+}
+
+
+/* font-family: 'Londrina Solid', cursive;
+font-family: 'Oregano', cursive;
+font-family: 'Roboto', sans-serif; */
