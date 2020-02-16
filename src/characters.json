@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Bert",
+    "image": "assets/img/betov1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Fozzie Bear",
+    "image": "assets/img/bearv1.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Animal",
+    "image": "assets/img/animalv1.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Gonzo",
+    "image": "assets/img/gonzov1.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Sweetums",
+    "image": "assets/img/sweetumsv1.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Ernie",
+    "image": "assets/img/erniev1.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Kermit the Frog",
+    "image": "assets/img/kermitv1.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Big Bird",
+    "image": "assets/img/bigbirdv1.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Oscar",
+    "image": "assets/img/oscarv1.jpg"
+  },
+  {
+    "id": 10,
+    "name": "elmo",
+    "image": "assets/img/elmov1.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Dracula",
+    "image": "assets/img/draculav1.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Cookie Monster",
+    "image": "assets/img/cookiemonsterv1.jpg"
+  }
+]
