@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/clicky-game-reacthooks/static/css/main.d1b05096.chunk.css",
+    "main.js": "/clicky-game-reacthooks/static/js/main.63a47451.chunk.js",
+    "main.js.map": "/clicky-game-reacthooks/static/js/main.63a47451.chunk.js.map",
+    "runtime-main.js": "/clicky-game-reacthooks/static/js/runtime-main.68b1cdb0.js",
+    "runtime-main.js.map": "/clicky-game-reacthooks/static/js/runtime-main.68b1cdb0.js.map",
+    "static/js/2.4255cd46.chunk.js": "/clicky-game-reacthooks/static/js/2.4255cd46.chunk.js",
+    "static/js/2.4255cd46.chunk.js.map": "/clicky-game-reacthooks/static/js/2.4255cd46.chunk.js.map",
+    "index.html": "/clicky-game-reacthooks/index.html",
+    "precache-manifest.a982b6e4d9f023037aba763939afc556.js": "/clicky-game-reacthooks/precache-manifest.a982b6e4d9f023037aba763939afc556.js",
+    "service-worker.js": "/clicky-game-reacthooks/service-worker.js",
+    "static/css/main.d1b05096.chunk.css.map": "/clicky-game-reacthooks/static/css/main.d1b05096.chunk.css.map",
+    "static/js/2.4255cd46.chunk.js.LICENSE.txt": "/clicky-game-reacthooks/static/js/2.4255cd46.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.68b1cdb0.js",
+    "static/js/2.4255cd46.chunk.js",
+    "static/css/main.d1b05096.chunk.css",
+    "static/js/main.63a47451.chunk.js"
+  ]
+}
