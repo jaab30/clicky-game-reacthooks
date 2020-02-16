@@ -2,7 +2,6 @@ import React from "react";
 import "./style.css";
 
 function CharactersComp(props) {
-  console.log(props);
   
   return (
     <div onClick={() => props.handleClick(props.id)} className={`characterContainer ${props.classShake}`}>
