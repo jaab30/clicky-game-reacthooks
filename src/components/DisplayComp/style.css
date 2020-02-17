@@ -31,56 +31,56 @@
  
 }
 
-    @media screen and (min-width: 600px) and (max-width: 900px) {
-        .mainContainer {
-            display: grid;
-            grid-template-columns: 5% 90% 5%;
-            margin:0 0 0 0;
-        }
+@media screen and (min-width: 600px) and (max-width: 900px) {
+    .mainContainer {
+        display: grid;
+        grid-template-columns: 5% 90% 5%;
+        margin:0 0 0 0;
+    }
+}
+
+
+@media screen and (min-width: 550px) and (max-width: 601px){
+    
+    .mainContainer {
+        display: grid;
+        grid-template-columns: 5% 90% 5%;
+        margin:0 0 0 0;
     }
 
-
-    @media screen and (min-width: 550px) and (max-width: 601px){
-       
-            .mainContainer {
-                display: grid;
-                grid-template-columns: 5% 90% 5%;
-                margin:0 0 0 0;
-            }
-
-             .displayComp {
-            grid-column-start: 2;
-            display: grid;
-            grid-template-columns: repeat(3, 33.3%);
-            }
-            .title {
-                grid-column-start: 1;
-                grid-column-end: 4;
-            }
-            .displayComp {
-                margin: 0 0 30px 0;
-            }
-    }
-
-    @media screen and (max-width: 550px) {
-
-        .mainContainer {
-            display: grid;
-            grid-template-columns: 1% 98% 1%;
-            margin:0 0 0 0;
-        }
         .displayComp {
-            grid-column-start: 2;
-            display: grid;
-            grid-template-columns: repeat(3, 33.3%);
-            }
-            .title {
-                grid-column-start: 1;
-                grid-column-end: 4;
-            }
-            .displayComp {
-                margin: 0 0 30px 0;
-            }
-
-
+    grid-column-start: 2;
+    display: grid;
+    grid-template-columns: repeat(3, 33.3%);
     }
+    .title {
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+    .displayComp {
+        margin: 0 0 30px 0;
+    }
+}
+
+@media screen and (max-width: 550px) {
+
+    .mainContainer {
+        display: grid;
+        grid-template-columns: 1% 98% 1%;
+        margin:0 0 0 0;
+    }
+    .displayComp {
+    grid-column-start: 2;
+    display: grid;
+    grid-template-columns: repeat(3, 33.3%);
+    }
+    .title {
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+    .displayComp {
+        margin: 0 0 30px 0;
+    }
+
+
+}
